@@ -8,8 +8,28 @@
     <title>cascade</title>
 </head>
 <body>
+    <!-- 3. order of appearance -->
     <div class="blue red">Lorem</div>
     <hr>
     <div class="red blue">lorem</div>
+    <br>
+    <!-- 1. important -->
+    <div class="blue2 red2">Lorem</div>
+    <hr>
+    <div class="red2 blue2">lorem</div>
+    <br>
+    <!-- 1. origin -->
+    <div class="parent">
+        <h1>heading1</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, maxime?</p>
+    </div>
+    <br>
+    <!-- specificity -->
+    <div class="blue3 red3">Lorem, ipsum dolor.</div>
+    <!-- inheritance(1) -->
+    <p class="emph">Lorem ipsum <em>dolor</em> sit amet.</p>
+    <!-- inheritance(2) -->
+    <p class="border">Lorem ipsum <em>dolor</em> sit amet.</p>
+    <p class="border2">Lorem ipsum <em class="em">dolor</em> sit amet.</p>
 </body>
 </html>
