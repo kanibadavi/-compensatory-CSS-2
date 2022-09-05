@@ -5,24 +5,48 @@
 /* header */
 header {
     border: 3px solid red;
+    height: 10vh;
     display: flex;
     justify-content: space-between;
 }
 
-header ul{
+
+.list{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
-header ul li {
-    
+.list li{
+    list-style-type: none;
+    padding: 3px;
+}
+
+.list li a{
+    text-decoration: none;
+    color: black;
 }
 
 /* main */
-main {
+.main {
     border:3px solid blue;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
 }
+.main img {
+    width: 50vw;
+    background-color: orange;
+}
+.section{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
 /* footer */
-footer {
+.footer {
     border:3px solid green;
+    height: 10vh;
 }
