@@ -4,7 +4,7 @@
 }
 /* header */
 header {
-    border: 3px solid red;
+   
     height: 10vh;
     display: flex;
     justify-content: space-between;
@@ -29,7 +29,7 @@ header {
 
 /* main */
 .main {
-    border:3px solid blue;
+   
     height: 80vh;
     display: flex;
     justify-content: space-between;
@@ -38,15 +38,35 @@ header {
     width: 50vw;
     background-color: orange;
 }
-.section{
+.section {
     width: 50vw;
     display: flex;
     justify-content: center;
     align-items:center;
+    flex-direction: column;
+}
+
+.section p{
+    font-size: 3rem;
+}
+.section p span{
+    color: red;
 }
 
 /* footer */
 .footer {
-    border:3px solid green;
+    
     height: 10vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+.footer p {
+    padding: 7px;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: black;
 }
