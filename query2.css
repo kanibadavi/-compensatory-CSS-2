@@ -1,7 +1,9 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 /* header */
 header {
    
@@ -10,7 +12,9 @@ header {
     justify-content: space-between;
 }
 
-
+header img{
+    padding: 4px;
+}
 .list{
     display: flex;
     flex-direction: row;
@@ -19,12 +23,13 @@ header {
 
 .list li{
     list-style-type: none;
-    padding: 3px;
+    padding: 20px;
 }
 
 .list li a{
     text-decoration: none;
     color: black;
+    font-size: 2rem;
 }
 
 /* main */
@@ -34,9 +39,10 @@ header {
     display: flex;
     justify-content: space-between;
 }
-.main img {
+.image {
+    background: url(https://smsh-862737-juc1ugur1qwqqqo4.stackpathdns.com/2569356/wp-content/uploads/2020/11/AdobeStock_241083104-1400x934.jpg?size=1400x934&lossy=1&strip=1&webp=1);
+    background-size: cover;
     width: 50vw;
-    background-color: orange;
 }
 .section {
     width: 50vw;
@@ -69,8 +75,15 @@ header {
 .footer p a{
     text-decoration: none;
     color: black;
+    font-size: 1.5rem;
 }
-
-/* @media  screen and(max-width:700px) {
-    
-} */
+@media screen and (max-width:700px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .image, .section{
+        height: 50%;
+        width: 100%;
+    }
+}
