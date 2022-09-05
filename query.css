@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header {
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li {
+    
+}
+
+/* main */
+main {
+    border:3px solid blue;
+}
+/* footer */
+footer {
+    border:3px solid green;
+}
